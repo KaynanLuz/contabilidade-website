@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section id= "about" className="bg-gray-50 py-20">
       <div className="mx-auto max-w-6xl px-4">
         <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
           Sobre a Brianca & Souza

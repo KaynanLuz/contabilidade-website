@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="w-full bg-slate-50">
+    <section id="home" className="w-full bg-slate-50">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-24">
         
         <h1 className="text-4xl font-bold text-slate-900">
