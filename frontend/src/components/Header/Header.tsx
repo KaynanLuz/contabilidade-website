@@ -11,10 +11,26 @@ export function Header() {
         {/* Menu */}
         <nav>
           <ul className="flex gap-6 text-sm font-medium">
-            <li className="cursor-pointer hover:text-slate-300">Início</li>
-            <li className="cursor-pointer hover:text-slate-300">Serviços</li>
-            <li className="cursor-pointer hover:text-slate-300">Sobre</li>
-            <li className="cursor-pointer hover:text-slate-300">Contato</li>
+            <li>
+              <a href="#home" className="hover:text-slate-300">
+                Início
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="hover:text-slate-300">
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="hover:text-slate-300">
+                Sobre
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-slate-300">
+                Contato
+              </a>
+            </li>
           </ul>
         </nav>
 
