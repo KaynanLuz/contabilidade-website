@@ -27,6 +27,11 @@ export function Header() {
               </a>
             </li>
             <li>
+              <a href="#equipe" className="hover:text-slate-300">
+                Profissionais
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="hover:text-slate-300">
                 Contato
               </a>
